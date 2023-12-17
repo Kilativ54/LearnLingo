@@ -1,13 +1,14 @@
 import React from 'react';
+import { LogoText } from './Logo.styled';
 
 
-import { Link } from 'react-router-dom';
 
 const Logo = ({ size }) => {
   return (
-    <Link to="/">
-Logo
-    </Link>
+    
+       <LogoText to="/"><p>LearnLingo</p></LogoText>
+
+    
   );
 };
 
