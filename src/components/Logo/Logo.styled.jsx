@@ -3,7 +3,7 @@ import { NavLink } from 'react-router-dom';
 
 
 export const LogoText = styled(NavLink)`
-
+display: flex;
 text-decoration: none;
 
  p {
@@ -15,4 +15,10 @@ text-decoration: none;
     color: rgba(18, 20, 23, 1);
       }
  
+`;
+
+export const LogoImg = styled.img`
+margin-right: 8px;
+  width: 100%;
+  max-height: 100%;
 `;
