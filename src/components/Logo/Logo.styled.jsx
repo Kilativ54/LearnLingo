@@ -3,11 +3,16 @@ import { NavLink } from 'react-router-dom';
 
 
 export const LogoText = styled(NavLink)`
-font-family: 'Roboto';
-    font-weight: 500;
+
+text-decoration: none;
+
  p {
-    font-family: 'Roboto';
     font-weight: 500;
-  }
+    font-family: inherit;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: -2%;
+    color: rgba(18, 20, 23, 1);
+      }
  
 `;
