@@ -3,33 +3,20 @@ import styled from '@emotion/styled';
 import { NavLink } from 'react-router-dom';
 
 export const StyledLink = styled(NavLink)`
-  color: #111;
+  color: rgba(18, 20, 23, 1);
   font-family: inherit;
-  font-size: 32px;
-  font-weight: 500;
-  line-height: normal;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
   letter-spacing: 1.28px;
   text-decoration: none
   transition: color var(--duration) var(--cubic);
-
   &.active {
-    color: var(--header-items-color);
+    color: #F4C550;
   }
 
   &:hover {
-    color: var(--header-items-color);
+    color: #F4C550;
   }
 
-  @media screen and (min-width: 768px){
-    font-size: 48px;
-    letter-spacing: 1.92px;
-    margin-bottom: 60px;
-  }
-
-  
-  @media screen and (min-width: 1200px) {
-    font-size: 20px;
-    letter-spacing: 0.8px;
-    margin-bottom:0;
-  }
 `;

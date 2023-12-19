@@ -8,7 +8,8 @@ const Nav = () => {
 
       <StyledLink to="/notices">Teachers</StyledLink>
 
-      
+      <StyledLink to="/news">Favorites</StyledLink>
+
     </>
   );
 };
