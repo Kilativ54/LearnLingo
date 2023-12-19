@@ -13,6 +13,13 @@ text-decoration: none;
     line-height: 24px;
     letter-spacing: -2%;
     color: rgba(18, 20, 23, 1);
+    &.active {
+    color: #F4C550;
+  }
+
+  &:hover {
+    color: #F4C550;
+  }
       }
  
 `;
