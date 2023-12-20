@@ -1,4 +1,5 @@
 import styled from '@emotion/styled';
+import { Link } from 'react-router-dom';
 
 export const AuthContainer = styled.div`
   display: flex;
@@ -7,15 +8,17 @@ export const AuthContainer = styled.div`
   height: 48px;
 `;
 
-export const AuthBtnLogin = styled.button`
+export const AuthBtnLogin = styled(Link)`
   display: flex;
     justify-content: center;
   align-items: center;
-  border-radius: 40px;
-  border: 2px solid var(--header-items-color);
+ width: 90px;
+ height: 20px;
   background-color: inherit;
   text-decoration: none;
-margin-right: 16px;
+  align-items: center;
+padding-right: 16px;
+
 height: 48px;
   color:rgba(18, 20, 23, 1);
   font-family: inherit;
@@ -24,7 +27,12 @@ height: 48px;
   line-height: 20px;
   letter-spacing: 0.64px;
   transition: all var(--duration) var(--cubic);
-
+span{
+  color: #F4C550;
+  width: 20px;
+  height: 20px;
+  margin-right: 8px;
+}
   &:active {
     color: #F4C550;
   }
@@ -34,7 +42,7 @@ height: 48px;
   }
 `;
 
-export const AuthBtnRegis = styled.button`
+export const AuthBtnRegis = styled(Link)`
   display: flex;
     
   justify-content: center;
@@ -53,16 +61,14 @@ height: 48px;
   letter-spacing: 0.64px;
   transition: all var(--duration) var(--cubic);
   &:hover {
-    background-color: : #F4C550;
+    background-color: #F4C550;
+    border-color: inherit;
   };
   &:active {
     background-color: #F4C550;
-    border-color: inherit;;
+    border-color: inherit;
     };
 
-  &:hover {
-    background-color: : #F4C550;
-  };
   
   
 `;
