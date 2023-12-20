@@ -14,7 +14,7 @@ const Header = () => {
           <div style={{ display: 'flex', gap: '40px' }}>
             <Nav />
           </div>
-          <div style={{ display: 'flex', alignItems: 'center', gap: '28px' }}>
+          <div style={{ display: 'flex', alignItems: 'center', gap: '16px' }}>
              <AuthNav />
           </div>
         </>

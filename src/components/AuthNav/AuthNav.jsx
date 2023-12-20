@@ -1,16 +1,17 @@
 import React from 'react';
-
+import { AuthBtnLogin } from './AuthNav.styled';
+import { AuthBtnRegis } from './AuthNav.styled';
+import { AuthContainer } from './AuthNav.styled';
 
 const AuthNav = () => {
   return (
-    <>
-      <button to="/" login="true">
+    <AuthContainer>
+       <AuthBtnLogin to="/" login="true">
         Log IN
-      
-      </button>
-      <button to="/">Registration</button>
-    </>
-  );
+          </AuthBtnLogin>
+      <AuthBtnRegis to="/">Registration</AuthBtnRegis>
+    </AuthContainer>
+   );
 };
 
 export default AuthNav;
