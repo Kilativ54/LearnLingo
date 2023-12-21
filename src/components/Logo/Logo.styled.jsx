@@ -4,6 +4,7 @@ import { NavLink } from 'react-router-dom';
 
 export const LogoText = styled(NavLink)`
 display: flex;
+align-items: center;
 text-decoration: none;
 
  p {

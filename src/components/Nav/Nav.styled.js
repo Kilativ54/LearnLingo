@@ -9,7 +9,8 @@ export const StyledLink = styled(NavLink)`
   font-weight: 400;
   line-height: 20px;
   letter-spacing: 1.28px;
-  text-decoration: none
+  text-decoration: none;
+  
   transition: color var(--duration) var(--cubic);
   &.active {
     color: #F4C550;
