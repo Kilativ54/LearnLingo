@@ -45,4 +45,11 @@ export const ContainerHome = styled.div`
   gap: 24px;
 `;
 
+export const TitelSectionHome =styled.h2`
+color: rgba(18, 20, 23, 1);
+font-weight: 500;
+font-size: 48px;
+line-height: 56px;
+`;
+
    
