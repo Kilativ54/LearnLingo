@@ -4,7 +4,7 @@ const Teachers = () => {
 
 
   return (
-   <div>teachers</div>
+   <h1>teachers</h1>
   );
 };
 

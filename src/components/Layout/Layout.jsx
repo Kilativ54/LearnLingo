@@ -1,4 +1,4 @@
-
+import { Suspense } from 'react';
 import { Outlet } from 'react-router-dom';
 
 
@@ -16,9 +16,9 @@ function Layout() {
      
       <Main>
         <Container>
-         
+        <Suspense >
             <Outlet />
-      
+            </Suspense>
         </Container>
       </Main>
    

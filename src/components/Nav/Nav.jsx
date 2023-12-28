@@ -4,11 +4,11 @@ import { StyledLink } from './Nav.styled';
 const Nav = () => {
   return (
     <>
-      <StyledLink to="/news">Home</StyledLink>
+      <StyledLink to="/">Home</StyledLink>
 
-      <StyledLink to="/notices">Teachers</StyledLink>
+      <StyledLink to="/teachers">Teachers</StyledLink>
 
-      <StyledLink to="/news">Favorites</StyledLink>
+      <StyledLink to="/favorites">Favorites</StyledLink>
 
     </>
   );
