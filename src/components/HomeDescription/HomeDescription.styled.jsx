@@ -25,7 +25,10 @@ export const SectionGetStarted = styled.section`
   height: 530px;
   border-radius: 30px;
   background-color: rgba(248, 248, 248, 1);
-
+  padding-left: 64px;
+  padding-top: 98px;
+  padding-bottom: 98px;
+  box-sizing: border-box;
 `;
 export const SectionImg =styled.div`
 width: 568px;
@@ -50,6 +53,11 @@ color: rgba(18, 20, 23, 1);
 font-weight: 500;
 font-size: 48px;
 line-height: 56px;
+text-align: left;
 `;
+
+export const SpanLang = styled.span`
+  
+`
 
    
