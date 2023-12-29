@@ -50,14 +50,27 @@ export const ContainerHome = styled.div`
 
 export const TitelSectionHome =styled.h2`
 color: rgba(18, 20, 23, 1);
-font-weight: 500;
+font-weight: 550;
 font-size: 48px;
 line-height: 56px;
 text-align: left;
 `;
 
 export const SpanLang = styled.span`
-  
-`
+  font-style: italic;
+  font-weight: 400;
+  display: flex;
+    width: 195px;
+    height: 40px;
+    background: rgba(251, 233, 186, 1);
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    padding-right: 6px;
+    padding-left: 8px;
 
+`
+export const ContainerSpan = styled.div`
+  display: inline-block;
+`
    
