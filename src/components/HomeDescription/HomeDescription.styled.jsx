@@ -54,6 +54,7 @@ font-weight: 550;
 font-size: 48px;
 line-height: 56px;
 text-align: left;
+margin-bottom: 32px;
 `;
 
 export const SpanLang = styled.span`
@@ -73,4 +74,9 @@ export const SpanLang = styled.span`
 export const ContainerSpan = styled.div`
   display: inline-block;
 `
-   
+   export const TextHomedescript = styled.p`
+       font-weight: 400;
+    font-size: 16px;
+    line-height: 22px
+    text-align: left;
+   `;
