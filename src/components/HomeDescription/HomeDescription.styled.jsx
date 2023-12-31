@@ -77,6 +77,6 @@ export const ContainerSpan = styled.div`
    export const TextHomedescript = styled.p`
        font-weight: 400;
     font-size: 16px;
-    line-height: 22px
+    line-height: 22px;
     text-align: left;
    `;

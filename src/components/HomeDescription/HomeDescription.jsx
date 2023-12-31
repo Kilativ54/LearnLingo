@@ -18,8 +18,8 @@ const HomeDescription = () => {
           tutors
         </TitelSectionHome>
         <TextHomedescript>
-          Embark on an Exciting Language Journey with Expert Language Tutors:
-          Elevate your language proficiency to new heights by connecting with
+          Embark on an Exciting Language Journey with Expert Language <br /> Tutors:
+          Elevate your language proficiency to new heights by <br /> connecting with
           highly qualified and experienced tutors.
         </TextHomedescript>
       </SectionGetStarted>
