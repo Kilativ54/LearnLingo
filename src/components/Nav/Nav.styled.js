@@ -11,7 +11,7 @@ export const StyledLink = styled(NavLink)`
   letter-spacing: 1.28px;
   text-decoration: none;
   
-  transition: color var(--duration) var(--cubic);
+  transition: color 500ms ease-in-out;
   &.active {
     color: #F4C550;
   }

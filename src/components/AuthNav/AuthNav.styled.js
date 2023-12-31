@@ -26,7 +26,7 @@ height: 48px;
   font-weight: 700;
   line-height: 20px;
   letter-spacing: 0.64px;
-  transition: all var(--duration) var(--cubic);
+  transition: color 500ms ease-in-out;
 span{
   color: #F4C550;
   width: 20px;
@@ -59,7 +59,7 @@ height: 48px;
   font-weight: 700;
   line-height: normal;
   letter-spacing: 0.64px;
-  transition: all var(--duration) var(--cubic);
+  transition: background-color 500ms ease-in-out;
   &:hover {
     background-color: #F4C550;
     border-color: inherit;
