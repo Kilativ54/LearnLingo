@@ -79,4 +79,5 @@ export const ContainerSpan = styled.div`
     font-size: 16px;
     line-height: 22px;
     text-align: left;
+    margin-bottom: 64px;
    `;

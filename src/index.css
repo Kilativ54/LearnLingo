@@ -39,6 +39,7 @@ border: none;
 cursor: pointer;
 };
 
-a{
-  all: initial;
+a {
+  text-decoration: none;
+  color: inherit;
 }

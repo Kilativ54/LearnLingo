@@ -5,6 +5,7 @@ import { TitelSectionHome } from './HomeDescription.styled';
 import { SpanLang } from './HomeDescription.styled';
 import { ContainerSpan } from './HomeDescription.styled';
 import { TextHomedescript } from './HomeDescription.styled';
+import LinkToCatalog from 'components/LinkToTeachers/LinkToTeachers';
 
 const HomeDescription = () => {
   return (
@@ -22,6 +23,7 @@ const HomeDescription = () => {
           Elevate your language proficiency to new heights by <br /> connecting with
           highly qualified and experienced tutors.
         </TextHomedescript>
+        <LinkToCatalog text="Get started" />
       </SectionGetStarted>
       <SectionImg />
     </ContainerHome>
