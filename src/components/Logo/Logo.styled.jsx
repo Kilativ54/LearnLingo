@@ -6,8 +6,8 @@ export const LogoText = styled(NavLink)`
 display: flex;
 align-items: center;
 text-decoration: none;
-
  p {
+  transition: color 500ms ease-in-out;
     font-weight: 500;
     font-family: inherit;
     font-size: 20px;
