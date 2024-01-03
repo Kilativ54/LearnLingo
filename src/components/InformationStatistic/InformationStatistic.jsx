@@ -1,8 +1,8 @@
-
+import { SectionInformation } from "./InformationStatistic.styled";
 
 const InformationStatistic = () => {
     return (
-              <SectionInformatio></SectionInformatio>
+              <SectionInformation></SectionInformation>
      );
   };
   
