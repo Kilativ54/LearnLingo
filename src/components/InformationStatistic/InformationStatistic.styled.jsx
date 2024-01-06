@@ -15,3 +15,11 @@ export const SectionInformation = styled.section`
 export const ListInfo = styled.ul`
     display: flex ;
 `
+
+export const ItemInfo = styled.li`
+    font-weight: 550;
+    font-size: 28px;
+    line-height: 32px;
+    color: rgba(18, 20, 23, 1);
+    
+`
