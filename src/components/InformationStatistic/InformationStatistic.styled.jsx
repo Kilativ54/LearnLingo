@@ -12,15 +12,6 @@ export const SectionInformation = styled.section`
     background-repeat: no-repeat;
     background-size: 100%;  
 `       
-// export const SectionImg =styled.div`
-// width: 568px;
-// height: 530px;
-//    display: flex;
-//     justify-content:center;
-   
-//     background-image: url(${BackImg});
-//     background-size: auto;
-//     background-position:center bottom 0;
-//     background-repeat: no-repeat;
-//     background-size: 100%;  
-// `;
+export const ListInfo = styled.ul`
+    display: flex ;
+`
