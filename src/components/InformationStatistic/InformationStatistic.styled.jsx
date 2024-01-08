@@ -15,10 +15,7 @@ box-sizing: border-box;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-left: 123px;
-    padding-right: 122px;
-
-`       
+   `       
 export const ListInfo = styled.ul`
      display: flex;
     justify-content: space-evenly;
@@ -56,6 +53,7 @@ export const SpanItem = styled.span`
                
                display: inline-block;
         margin-left: 16px ;
+        width: 96px;
        
       
 `
