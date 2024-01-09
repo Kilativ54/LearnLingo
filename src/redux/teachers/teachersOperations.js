@@ -1,7 +1,7 @@
 import { createAsyncThunk } from '@reduxjs/toolkit';
 import axios from 'axios';
 
-axios.defaults.baseURL = 'https://learnlingo-15f6e-default-rtdb.europe-west1.firebasedatabase.app/';
+axios.defaults.baseURL = 'https://64b7ee1e21b9aa6eb0794d9b.mockapi.io/';
 
 export const fetchFirstPage = createAsyncThunk(
   'adverts/fetchFirst',
