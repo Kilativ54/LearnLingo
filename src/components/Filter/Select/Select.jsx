@@ -1,9 +1,9 @@
 import PropTypes from 'prop-types';
 
-import { createOptions } from 'helpers/createOptions';
-import { priceArray } from 'helpers/priceOptions';
-import { removeDuplicatesAndSort } from 'helpers/removeDuplicatesAndSort';
-import makes from 'makes.json';
+import { createOptions } from '../../helpers/createOptions';
+import { priceArray } from '../../helpers/priceOptions';
+import { removeDuplicatesAndSort } from '../../helpers/removeDuplicatesAndSort';
+import makes from '../../../../src/components/makes.json';
 import { Label, SelectInput, SelectWrapper } from './Select.styled';
 
 const Select = ({ textLabel, name, width, handleChange, value, brand }) => {

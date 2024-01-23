@@ -1,6 +1,6 @@
 import styled from '@emotion/styled';
 import { motion } from 'framer-motion';
-import { min, tablet } from 'styles/media';
+import { min, tablet } from '../styles/media';
 
 export const Button = styled(motion.button)`
   position: fixed;

@@ -1,7 +1,7 @@
 import { useDispatch } from 'react-redux';
 import PropTypes from 'prop-types';
 
-import { fetchCars } from 'redux/cars/carsOperations';
+import { fetchCars } from '../../redux/cars/carsOperations';
 import { Button } from './ButtonLoadMore.styled';
 
 const ButtonLoadMore = ({ page, setPage, setShowButton }) => {

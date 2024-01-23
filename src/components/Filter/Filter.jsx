@@ -2,8 +2,8 @@ import { useEffect, useState } from 'react';
 import { useDispatch } from 'react-redux';
 import PropTypes from 'prop-types';
 
-import { fetchFirstPage } from 'redux/cars/carsOperations';
-import { setFilter } from 'redux/filter/filterSlice';
+import { fetchFirstPage } from '../../redux/cars/carsOperations';
+import { setFilter } from '../../redux/filter/filterSlice';
 import Select from './Select/Select';
 import {
   FilterForm,
@@ -14,7 +14,7 @@ import {
   Mileage,
   MileageWrapper,
   SearchButton,
-} from './Filter.styled';
+} from '../Filter/Filter.styled';
 
 const Filter = ({ setFiltering, setShowButton }) => {
   const [valuePrice, setValuePrice] = useState({

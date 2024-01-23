@@ -8,10 +8,10 @@ import Filter from 'components/Filter/Filter';
 import {
   fetchAllCarsForFilter,
   fetchFirstPage,
-} from 'redux/cars/carsOperations';
-import { selectCars } from 'redux/cars/carsSelectors';
-import { selectFilter } from 'redux/filter/filterSelectors';
-import { getFilteredCars } from 'helpers/getFilteredCars';
+} from '../redux/cars/carsOperations';
+import { selectCars } from '../redux/cars/carsSelectors';
+import { selectFilter } from '../redux/filter/filterSelectors';
+import { getFilteredCars } from '../components/helpers/getFilteredCars';
 import Loader from 'components/Loader/Loader';
 import ButtonScrollToTop from 'components/ButtonScrollToTop/ButtonScrollToTop';
 
