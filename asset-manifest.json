@@ -1,29 +1,29 @@
 {
   "files": {
     "main.css": "/LearnLingo/static/css/main.609ad980.css",
-    "main.js": "/LearnLingo/static/js/main.f38cc97f.js",
+    "main.js": "/LearnLingo/static/js/main.fb50cd10.js",
     "static/js/434.b8c8e2f0.chunk.js": "/LearnLingo/static/js/434.b8c8e2f0.chunk.js",
     "static/js/544.2fc06c68.chunk.js": "/LearnLingo/static/js/544.2fc06c68.chunk.js",
     "static/js/618.b3a8319c.chunk.js": "/LearnLingo/static/js/618.b3a8319c.chunk.js",
     "static/js/248.72893fd2.chunk.js": "/LearnLingo/static/js/248.72893fd2.chunk.js",
     "static/js/912.89385057.chunk.js": "/LearnLingo/static/js/912.89385057.chunk.js",
     "static/js/609.aa184dca.chunk.js": "/LearnLingo/static/js/609.aa184dca.chunk.js",
-    "static/js/780.08852bb5.chunk.js": "/LearnLingo/static/js/780.08852bb5.chunk.js",
+    "static/js/780.9de8e5ae.chunk.js": "/LearnLingo/static/js/780.9de8e5ae.chunk.js",
     "static/media/back-img-homePage.png": "/LearnLingo/static/media/back-img-homePage.5da86a515ca4ba48ca0d.png",
     "static/media/romeo.png": "/LearnLingo/static/media/romeo.0cf0532050c13ed985c0.png",
     "index.html": "/LearnLingo/index.html",
     "main.609ad980.css.map": "/LearnLingo/static/css/main.609ad980.css.map",
-    "main.f38cc97f.js.map": "/LearnLingo/static/js/main.f38cc97f.js.map",
+    "main.fb50cd10.js.map": "/LearnLingo/static/js/main.fb50cd10.js.map",
     "434.b8c8e2f0.chunk.js.map": "/LearnLingo/static/js/434.b8c8e2f0.chunk.js.map",
     "544.2fc06c68.chunk.js.map": "/LearnLingo/static/js/544.2fc06c68.chunk.js.map",
     "618.b3a8319c.chunk.js.map": "/LearnLingo/static/js/618.b3a8319c.chunk.js.map",
     "248.72893fd2.chunk.js.map": "/LearnLingo/static/js/248.72893fd2.chunk.js.map",
     "912.89385057.chunk.js.map": "/LearnLingo/static/js/912.89385057.chunk.js.map",
     "609.aa184dca.chunk.js.map": "/LearnLingo/static/js/609.aa184dca.chunk.js.map",
-    "780.08852bb5.chunk.js.map": "/LearnLingo/static/js/780.08852bb5.chunk.js.map"
+    "780.9de8e5ae.chunk.js.map": "/LearnLingo/static/js/780.9de8e5ae.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.609ad980.css",
-    "static/js/main.f38cc97f.js"
+    "static/js/main.fb50cd10.js"
   ]
 }
