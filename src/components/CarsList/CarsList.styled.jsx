@@ -12,5 +12,5 @@ export const List = styled.ul`
 `;
 
 export const ListItem = styled.li`
-  width: 274px;
+  width: 1184px;
 `;

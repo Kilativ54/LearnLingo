@@ -10,15 +10,15 @@ export const Wrapper = styled.div`
 `;
 
 export const ImageWrapper = styled.div`
-  border-radius: 14px;
-  width: 274px;
-  height: 268px;
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
   max-width: 100%;
   overflow: hidden;
   position: relative;
   transition: transform 500ms ease-in-out, box-shadow 500ms ease-in-out;
   cursor: pointer;
-  margin-bottom: 14px;
+  margin-bottom: 24px;
 
   &:hover {
     transform: scale(1.05);
